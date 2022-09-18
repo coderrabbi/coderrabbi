@@ -1,0 +1,85 @@
+.cr__services {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+  height: 30rem;
+  margin-bottom: 13rem;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 2rem 3rem;
+    max-width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+}
+.cr__services-left-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  h1 {
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  h1:nth-child(2) {
+    color: var(--orange);
+  }
+  p {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+    margin: 1rem 0;
+  }
+  button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+}
+.cr__services-right-container {
+  display: flex;
+  flex: 1;
+  position: relative;
+  div {
+    position: absolute;
+  }
+  @media only screen and (max-width: 1050px) {
+    margin-top: 50px;
+    padding: 2rem 3rem;
+    max-width: 100%;
+    gap: 2rem;
+    div {
+      position: relative;
+      top: 0 !important;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      left: 0 !important;
+      margin-bottom: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 915px) {
+    flex-direction: column;
+  }
+}
+
+//blur
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 12rem;
+  left: 7rem;
+  background: #abf1ff94;
+}

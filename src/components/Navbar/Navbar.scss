@@ -1,0 +1,71 @@
+.n-wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 4rem;
+  background: rgba(255, 255, 255, 0.25);
+  // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  z-index: 2;
+  max-width: 2000px;
+  @media screen and (max-width: 700px) {
+    padding: 1rem 2rem;
+  }
+
+  @media screen and (max-width: 550px) {
+    padding: 0.5rem 2rem;
+  }
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+
+  @media only screen and (max-width: 1050px) {
+    display: none;
+  }
+}
+.n-list ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  li {
+    transition: all 0.3s ease-in-out;
+  }
+  li:hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+}
+
+.n-button {
+  flex: 2;
+  @media only screen and (max-width: 1050px) {
+    display: none;
+  }
+}

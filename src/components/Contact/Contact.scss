@@ -1,0 +1,96 @@
+.cr__contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 60px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 2rem 3rem;
+    max-width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+}
+.cr__contact-left-content {
+  display: flex;
+  flex: 1;
+  margin-top: 50px;
+  flex-direction: column;
+  position: relative;
+  h1 {
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  h1:nth-child(2) {
+    color: var(--orange);
+  }
+  p {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+    margin: 1rem 0;
+  }
+}
+
+.MuiFormControl-root.MuiTextField-root.first__name.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+form {
+  gap: 2rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.email__phone {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.cr__contact-right-content {
+  flex: 1 1;
+  border: 2px solid var(--orange);
+  padding: 1.5rem;
+  border-radius: 18px;
+  @media only screen and (max-width: 1050px) {
+    margin-top: 50px;
+  }
+  div {
+    background: transparent;
+  }
+  div:hover {
+    background: transparent;
+  }
+  div:active {
+    background: transparent;
+  }
+  div:focus {
+    background: transparent;
+  }
+}
+.contact__submit__button button {
+  padding: 12px 20px;
+  border-radius: 18px;
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact__details__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Gumela;
+  src: url("../src/fonts/Gumela\ Regular.otf");
+}
+* {
+  font-family: "Gumela";
+  font-weight: normal;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+}
+
+:root {
+  --white-color: #ffff;
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+// ::-webkit-scrollbar-thumb {
+//   background-image: linear-gradient(45deg, #00aeff, #a68eff) !important;
+//   border-radius: 10px;
+//   box-shadow: rgb(0 0 0 / 12%) 0 3px 13px 1px;
+//   -webkit-box-shadow: rgb(0 0 0 / 12%) 0 3px 13px 1px;
+// }
+// ::scrollbar-thumb {
+//   background-image: linear-gradient(45deg, #00aeff, #a68eff) !important;
+//   border-radius: 10px;
+//   box-shadow: rgb(0 0 0 / 12%) 0 3px 13px 1px;
+//   -webkit-box-shadow: rgb(0 0 0 / 12%) 0 3px 13px 1px;
+// }

@@ -1,0 +1,155 @@
+.cr__hire {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+  height: 30rem;
+  align-items: center;
+  margin-bottom: 13rem;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 2rem 3rem;
+    max-width: 100%;
+    margin-bottom: 10rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+    margin-bottom: 8rem;
+  }
+}
+.cr__hire-left-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  h1 {
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  h1:nth-child(2) {
+    color: var(--orange);
+  }
+  p {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+    margin: 1rem 0;
+  }
+  button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+}
+.cr__hire-right-section {
+  position: relative;
+  flex: 1.2;
+
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    transform: scale(0.7);
+  }
+  @media only screen and (max-width: 380px) {
+    transform: scale(0.5);
+    flex: 1;
+    padding: 0;
+  }
+}
+.cr__hire-maincircle {
+  top: 2rem;
+  left: 9rem;
+  width: 18rem;
+  height: 18rem;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  background: #fff;
+}
+.cr__hire-maincircle div {
+  position: absolute;
+}
+.cr__hire-seccircle {
+  img {
+    transform: scale(0.6);
+  }
+}
+.cr__hire-maincircle {
+  :nth-child(1) {
+    top: -2rem;
+    left: 6rem;
+  }
+  :nth-child(2) {
+    top: 6rem;
+    left: -2rem;
+  }
+  :nth-child(3) {
+    top: 6rem;
+    left: 6rem;
+  }
+  :nth-child(4) {
+    top: 6rem;
+    left: 14rem;
+  }
+  :nth-child(5) {
+    top: 14rem;
+    left: 6rem;
+  }
+  @media only screen and (max-width: 700px) {
+    position: static;
+  }
+  @media only screen and (max-width: 500px) {
+    transform: scale(0.8) !important;
+    position: ABSOLUTE;
+    left: 0;
+  }
+}
+.cr__hire-seccircle {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  border: 2px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.cr__hire-backcircle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+  @media only screen and (max-width: 700px) {
+    left: 8rem !important;
+  }
+  @media only screen and (max-width: 500px) {
+    transform: scale(0.8);
+  }
+}
+.blueCircle {
+  background: blue;
+  left: 18rem;
+  top: 0rem;
+}
+.yollowCircle {
+  background: rgb(248, 204, 8);
+  top: 8rem;
+  left: 18rem;
+}
