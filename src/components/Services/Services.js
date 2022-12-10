@@ -4,6 +4,7 @@ import heart from "../../img/heartemoji.png";
 import glasses from "../../img/glasses.png";
 import humble from "../../img/humble.png";
 import Card from "../Card/Card";
+import resume from "../../img/Rabby-resume.pdf";
 import { motion } from "framer-motion";
 
 function Services() {
@@ -23,7 +24,7 @@ function Services() {
           nesciunt consequuntur quam officiis, mollitia fuga excepturi ut
           ducimus qui repellendus.
         </p>
-        <a href="download">
+        <a href={resume} download>
           <button className="button cv__btn"> Download CV</button>
         </a>
         <div className="blur s-blur1">hlw</div>

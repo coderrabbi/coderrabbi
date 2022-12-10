@@ -16,14 +16,14 @@ const Hero = () => {
       <div className="cr__hero section__padding" id="Home">
         <div className="cr__hero-left-content">
           <h1>Hy! I Am</h1>
-          <h1>Golam Rabbi</h1>
+          <h1> Rabby</h1>
 
           {/* for__work */}
 
           {/*  */}
 
           <p>
-            Frontend Developer with high lavel of exporionce in web desiging and
+            Frontend Developer with high lavel of exprience in web desiging and
             development, producting the Quality work
           </p>
           <a href="#Contact">
@@ -33,10 +33,10 @@ const Hero = () => {
             <a href="https://github.com/coderrabbi">
               <img src={github} alt="github" />
             </a>
-            <a href="https://www.linkedin.com/in/3dotit/">
+            <a href="https://www.linkedin.com/in/rabbysikder/">
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="https://github.com/coderrabbi">
+            <a href="">
               <img src={instagram} alt="instagram" />
             </a>
           </div>
