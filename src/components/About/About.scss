@@ -1,0 +1,35 @@
+.about__me {
+  padding: 2rem;
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width: 912px) {
+    margin-top: 44rem;
+  }
+  .about__wrap {
+    display: flex;
+    align-items: center;
+    .about__me-left {
+      flex: 1;
+    }
+    .about__me-right {
+      flex: 1;
+      text-align: center;
+    }
+    @media only screen and (max-width: 920px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media only screen and (max-width: 480px) {
+      gap: 0.5rem;
+    }
+  }
+}

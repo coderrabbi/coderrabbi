@@ -1,0 +1,12 @@
+#Blogs {
+  text-align: center;
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}

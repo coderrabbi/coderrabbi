@@ -1,5 +1,7 @@
 import "./App.scss";
 import { Navbar, Hero } from "./components";
+import About from "./components/About/About";
+import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Exprience from "./components/Exprience/Exprience";
 import Footer from "./components/Footer/Footer";
@@ -14,10 +16,12 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <About />
       <Exprience />
       {/* <Hire /> */}
       <Work />
       {/* <Testimonials /> */}
+      <Blog />
       <Contact />
       <Footer />
     </div>
