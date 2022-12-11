@@ -6,7 +6,7 @@ import crown from "../../img/crown.png";
 import { motion } from "framer-motion";
 import coderrabbi from "../../img/2nd-profile.png";
 import glassesimoji from "../../img/glassesimoji.png";
-
+import resume from "../../img/Rabby-resume.pdf";
 import "./Hero.scss";
 import Floatindiv from "../FloatinDiv/FloatinDiv";
 const Hero = () => {
@@ -26,18 +26,21 @@ const Hero = () => {
             Frontend Developer with high lavel of exprience in web desiging and
             development, producting the Quality work
           </p>
-          <a href="#Contact">
-            <button className="cr__hire-btn button">Hire me</button>
-          </a>
+          <div className="resume">
+            {" "}
+            <a href="#Contact">
+              <button className="cr__hire-btn button">Hire me</button>
+            </a>
+            <a href={resume} download>
+              <button className="button cv__btn"> Download CV</button>
+            </a>
+          </div>
           <div className="cr__hero-social">
             <a href="https://github.com/coderrabbi">
               <img src={github} alt="github" />
             </a>
             <a href="https://www.linkedin.com/in/rabbysikder/">
               <img src={linkedin} alt="linkedin" />
-            </a>
-            <a href="">
-              <img src={instagram} alt="instagram" />
             </a>
           </div>
         </div>

@@ -3,10 +3,10 @@ import { Navbar, Hero } from "./components";
 import Contact from "./components/Contact/Contact";
 import Exprience from "./components/Exprience/Exprience";
 import Footer from "./components/Footer/Footer";
-import Hire from "./components/Hire/Hire";
+// import Hire from "./components/Hire/Hire";
 import Services from "./components/Services/Services";
 // import Slider from "./components/Slider/Slider";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Work from "./components/Work/Work";
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Hero />
       <Services />
       <Exprience />
-      <Hire />
+      {/* <Hire /> */}
       <Work />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>

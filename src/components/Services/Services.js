@@ -62,10 +62,8 @@ function Services() {
         >
           <Card
             emoji={humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"Problem Solving"}
+            detail={"Solve coding problem using chrome devtools"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
