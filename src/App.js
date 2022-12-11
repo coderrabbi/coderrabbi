@@ -18,9 +18,9 @@ function App() {
       <Services />
       <About />
       <Exprience />
-      {/* <Hire /> */}
+
       <Work />
-      {/* <Testimonials /> */}
+
       <Blog />
       <Contact />
       <Footer />
