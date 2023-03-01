@@ -32,7 +32,7 @@ const Hero = () => {
               <button className="cr__hire-btn button">Hire me</button>
             </a>
             <a href={resume} download>
-              <button className="button cv__btn"> Download CV</button>
+              <button className="button cv__btn"> Get Resume</button>
             </a>
           </div>
           <div className="cr__hero-social">

@@ -25,7 +25,7 @@ function Services() {
           ducimus qui repellendus.
         </p>
         <a href={resume} download>
-          <button className="button cv__btn"> Download CV</button>
+          <button className="button cv__btn"> Get Resume</button>
         </a>
         <div className="blur s-blur1">hlw</div>
       </div>
