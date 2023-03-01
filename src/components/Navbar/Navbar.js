@@ -55,9 +55,7 @@ const navbar = () => {
               </Link>
             </li> */}
             <li>
-              <Link to="Blogs" spy={true} smooth={true}>
-                Blogs
-              </Link>
+              <Link to="/blogs">Blogs</Link>
             </li>
           </ul>
         </div>
